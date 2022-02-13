@@ -1,0 +1,14 @@
+#spring
+spring:
+  profiles:
+    # 区分不同配置环境
+    active: dev
+  devtools:
+    restart:
+      # 热部署是否生效,true为生效，false为失效
+      enabled: false
+  application:
+    # 应用程序名称
+    name: mybatisdemo
+
+
